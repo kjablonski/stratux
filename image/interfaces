@@ -53,3 +53,6 @@ iface wlan0 inet static
 #     priority=3
 # }
 #############################################################
+
+allow-hotplug usb0
+iface usb0 inet dhcp
